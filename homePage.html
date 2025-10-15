@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Jaden Natha Kautsar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828817.png">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Jaden Natha Kautsar</h1>
+      <ul class="flex gap-6 text-gray-700 font-medium">
+        <li><a href="#about" class="hover:text-blue-600">Tentang</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Proyek</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center">
+    <h2 class="text-4xl font-bold mb-4">Halo, Saya <span class="text-yellow-300">Jaden Natha Kautsar</span></h2>
+    <p class="text-lg mb-6">Seorang mahasiswa jurusan Teknologi Informasi Program Studi Sistem Informasi Bisnis di Politeknik Negeri Malang </p>
+    <a href="#projects" class="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full hover:bg-yellow-500 transition">Lihat Proyek</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10 text-blue-600">Tentang Saya</h3>
+    <div class="flex flex-col md:flex-row items-center gap-10">
+      <img src="image\fotoProfil.jpg" alt="Foto Profil" class="rounded-full shadow-lg w-60 h-60 object-cover">
+      <p class="text-lg leading-relaxed text-gray-700">
+        Saya adalah pengembang web dengan pengalaman dalam front-end dan back-end development.
+        Saya senang menciptakan aplikasi yang tidak hanya fungsional tapi juga estetis dan mudah digunakan.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10 text-blue-600">Proyek Saya</h3>
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+          <img src="image/bebastang.png" alt="Project 1" class="w-full">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold mb-3">Sistem Bebas Tanggungan (PHP Native)</h4>
+            <p class="text-gray-600 mb-4">Aplikasi berbasis web untuk mempermudah pelacakan tanggungan yang dimiliki mahasiswa yang diperlukan untuk kelulusan.</p>
+            <a href="https://github.com/jadennatha/SistemBebasTanggungan" class="text-blue-600 font-medium hover:underline">Lihat Detail →</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+          <img src="image/tracker.png" alt="Project 2" class="w-full">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold mb-3">Sistem Tracer Study (PHP Laravel)</h4>
+            <p class="text-gray-600 mb-4">Aplikasi berbasis web yang digunakan untuk melacak para alumni dari jurusan JTI serta menilai kinerja atau kompentensi dari setiap mahasiswa berdasarkan survey dari perushaan.</p>
+            <a href="https://github.com/farelmaryamlailahajiri/tracker" class="text-blue-600 font-medium hover:underline">Lihat Detail →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Social Section -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10 text-blue-600">Hubungi Saya</h3>
+    <div class="bg-white p-8 rounded-xl shadow-lg">
+      <p class="text-center text-gray-700 mb-6">Terhubung dengan saya melalui media sosial:</p>
+      <div class="flex justify-center items-center gap-8">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/edennatha/" target="_blank" rel="noopener" aria-label="Instagram" class="transform hover:-translate-y-1 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" alt="Instagram" class="w-14 h-14 md:w-20 md:h-20 object-contain">
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/jadennatha" target="_blank" rel="noopener" aria-label="GitHub" class="transform hover:-translate-y-1 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="w-14 h-14 md:w-20 md:h-20 object-contain">
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/jaden-natha-kautsar-b38b69292/" target="_blank" rel="noopener" aria-label="LinkedIn" class="transform hover:-translate-y-1 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-14 h-14 md:w-20 md:h-20 object-contain">
+        </a>
+      </div>
+      <div class="mt-6 text-center">
+        <a href="mailto:edennatha@gmail.com" class="inline-flex items-center gap-3 text-gray-700 hover:text-blue-600 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="w-5 h-5">
+          <span class="text-sm">edennatha@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>© 2025 Jaden Natha Kautsar. Dibuat dengan ❤️ menggunakan Tailwind CSS.</p>
+  </footer>
+
+</body>
+</html>
